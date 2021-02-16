@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap');
+
+.hide-section {
+    display: none;
+}
+
+h2 {
+    font: 150% bolder;
+    margin: 3%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font: 250% bolder ;
+    margin: 5%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p {
+    font-size:120%;
+    margin: 2% auto 2% auto;
+    width: 70%;
+}
+
+img {
+    /* border:solid midnightblue 3px ; */
+    border-radius: 7px;
+    box-shadow: dimgray 3px 3px 3px;
+    width: 200px;
+    height: 250px;
+}
+
+section {
+    border:solid darkred 3px ;
+    border-radius: 9px;
+    margin: 3%;
+}
+
+select {
+    padding: 1%;
+    border-radius: 4px;
+    font-size: 120%;
+    background-color: darkslategrey;
+    color: white;
+
+}
+
+button {
+    background-color: darkslategrey;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    padding: 0.5%;
+    color: white;
+}
+
+button:hover,select:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

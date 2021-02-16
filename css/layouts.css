@@ -1,0 +1,23 @@
+#template{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+}
+
+section {
+    display: inline-block;
+    width: 20%;
+}
+
+#drop-menu {
+    display: block;
+    margin: 2%;
+}
+select {
+    margin: 1%;
+}
+
+button {
+    margin: 1%;
+}
